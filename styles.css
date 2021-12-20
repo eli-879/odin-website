@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, sans-serif;
+    margin: 0;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+.header {
+    display: flex;
+    background-color: #1F2937;
+    align-items: center;
+}
+
+.header .right-links {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+
+.header .left-links {
+    margin-left: auto;
+    margin-right: 64px;
+}
+
+.section-one {
+    background-color: #1F2937;
+}
+
+.section-one .info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 128px;
+    margin-bottom: 128px;
+    gap: 64px;
+}
+
+.section-one .info .text {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.section-one .info .text .main-title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    
+}
+
+.section-one .info .text .subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.section-one .info .text .sign-up {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: 700;
+    width: 128px;
+    height: 32px;
+    border-radius: 8px;
+    margin-top: 16px;
+    border-width: 0;
+}
+
+.section-one .info .picture {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.section-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+
+.section-two .main-title {
+    font-size: 36px;
+    font-weight: bolder;
+    margin-bottom: 64px;
+    color: #1F2937
+}
+
+.section-two .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 64px;
+
+}
+
+.section-two .boxes .box-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-two .boxes .box-text .box {
+    height: 128px;
+    width: 128px;
+    border-style: solid;
+    border-color: #3882F6;
+    border-radius: 20px;
+}
+
+
+.section-two .boxes .box-text .text {
+    margin: 16px;
+}
+
+.section-three {
+    display: flex;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.section-three .quote {
+    display: flex;
+    flex-direction: column;
+    margin-top: 128px;
+    margin-bottom: 128px;
+    width: 50%;
+}
+
+.section-three .quote .saying {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.section-three .quote .person {
+    margin-left: auto;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.section-four {
+    display: flex;
+    justify-content: center;
+    padding: 64px;
+}
+
+.section-four .rectangle-container {
+    display: flex;
+    background-color: #3882F6;
+    color:#E5E7EB;
+    padding: 50px 128px;
+    border-radius: 10px;
+    gap: 128px;
+}
+
+.section-four .rectangle-container .sign-up {
+    margin-left: auto;
+}
+
+.section-four .rectangle-container .text .title {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.section-four .rectangle-container .sign-up {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-weight: 900;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 8px;
+    border-color:#E5E7EB;
+    width: 135px;
+    
+}
+
